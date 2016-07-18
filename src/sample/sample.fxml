@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane prefHeight="305.0" prefWidth="243.0">
+         <children>
+            <TextField fx:id="in" layoutX="26.0" layoutY="37.0" promptText="00000000" />
+            <Label layoutX="26.0" layoutY="14.0" prefHeight="17.0" prefWidth="149.0" text="insert binary below" />
+            <TextArea fx:id="out" editable="false" layoutX="22.0" layoutY="69.0" prefHeight="200.0" prefWidth="200.0" promptText="Decimal" />
+            <Button layoutX="175.0" layoutY="37.0" mnemonicParsing="false" onAction="#show" text="Button" />
+         </children>
+      </AnchorPane>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
